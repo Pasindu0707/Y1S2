@@ -1,0 +1,184 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.header
+{
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../Img/background.jpg");
+	background-size:cover;
+	width:100%;
+	min-height:25vh;
+	background-position:center;
+	position:relative;
+	backgroud-repeat:no-repeat;
+
+ }
+
+ nav
+ {
+	 display:flex;
+	 padding:2% 6%;
+	 justify-content:space-between;
+	 align-item:center;
+ 
+ }
+ nav h4 
+ {
+	color:white;
+ }
+  
+ nav h4:hover
+ {
+	color:#47555e;
+ }
+ nav img
+ {
+	display:block;
+	margin:left;
+	margin-right:center;
+	width:auto;
+ }
+ 
+ .links 
+ {
+	  flex:1;
+	 text-align:right;
+}
+ .links ul li
+ {
+	
+	 list-style:none;
+	 display:inline-block;
+	 padding:8px 12px;
+	 position:relative;
+ }
+ .links ul li a
+ {
+	 color:white;
+	 text-decoration:none;
+	 font-size:20px;
+ }
+ .links ul li::after
+ {
+	 content:'';
+	 width:0%;
+	 height:2px;
+	background-color:#47555e;
+	display:block;
+	margin:auto;
+	transition:1s;
+ }
+ .links ul li:hover::after
+ {
+	 width:100%;
+ }
+ 
+ /*body*/
+ 
+ .button {
+  top:20%;
+  border: 2px solid #47555e;
+  box-sizing:border-box;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 2px 4px;
+  cursor: pointer;
+  background-color:#47555e;
+  
+  position:relative ; left:65%;
+}
+.a
+{
+	text-decoration:none;
+  color:white;
+}
+.button:hover {
+  background-color: black;
+}
+.table th
+{
+	height:50px;
+	width:150px;
+	
+}
+.table
+{
+	    align-items: center;
+}
+ 
+ 
+/*Footer*/
+
+.hr
+{
+	border-top:3px solid black;
+	
+}
+.footer
+{
+	background-color:#7c827d;
+	width:100%;
+	text-align:center;
+	padding:30px 0;
+}
+.reg
+ {
+	 text-decoration:none;
+	 color:white;
+	 border:2px solid;
+	 padding:12px 34px;
+	 font-size:16px;
+	 background:transparent;
+	 
+ }
+ .reg:hover
+ {
+	 border:3px solid white;
+	 background:#47555e;
+	 transition:0.5s;
+ }
+
+	
+#login{
+	background-color:#47555e;
+	width:450px;
+	height:300px;
+	border-radius:12px;
+}
+.submit-btn {
+    width: 15%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+
+}
+
+.submit-btn:active,
+.submit-btn:hover {
+  background-color: gray;  
+}
+
+.footer h4
+{
+	color:white;
+	margin-bottom:25px;
+	margin-top:20px;
+	font-weight:600;
+}
+
+.socialmedia{
+    display: flex;
+	padding:2% 6%;
+    justify-content:space-between;
+    align-items: center;
+} 

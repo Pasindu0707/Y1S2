@@ -1,0 +1,113 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.header
+{
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../Img/contact.jpg");
+	background-size:cover;
+	width:100%;
+	min-height:25vh;
+	background-position:center;
+	position:relative;
+	backgroud-repeat:no-repeat;
+
+ }
+ 
+ nav
+ {
+	 display:flex;
+	 padding:2% 6%;
+	 justify-content:space-between;
+	 align-item:center;
+ 
+ }
+ nav h4 
+ {
+	color:white;
+ }
+  
+ nav h4:hover
+ {
+	color:#47555e;
+ }
+ nav img
+ {
+	display:block;
+	margin:left;
+	margin-right:center;
+	width:auto;
+ }
+ 
+ .links 
+ {
+	  flex:1;
+	 text-align:right;
+}
+ .links ul li
+ {
+	
+	 list-style:none;
+	 display:inline-block;
+	 padding:8px 12px;
+	 position:relative;
+ }
+ .links ul li a
+ {
+	 color:white;
+	 text-decoration:none;
+	 font-size:20px;
+ }
+ .links ul li::after
+ {
+	 content:'';
+	 width:0%;
+	 height:2px;
+	background-color:#47555e;
+	display:block;
+	margin:auto;
+	transition:1s;
+ }
+ .links ul li:hover::after
+ {
+	 width:100%;
+ }
+ 
+ .text
+ {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 15px;
+    text-align: center;
+    background-color:rgba(20, 20, 50, 0.300);
+
+ .img
+ {
+	 background-color:#47555e;
+ }
+ 
+ }
+ .footer
+ {
+	 background-color:#7c827d;
+ }
+ .hr
+{
+	border-top:3px solid black;
+	
+}
+ .socialmedia{
+    display: flex;
+	padding:2% 6%;
+    justify-content:space-between;
+    align-items: center;
+} 
+ 
+ 
+.paymentmethods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	justify-content:space-between;
+	padding:0% 30%;
+} 

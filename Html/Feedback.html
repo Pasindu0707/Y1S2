@@ -1,0 +1,86 @@
+<html>
+	
+	<head>
+		<meta name="viewport" content="with-device-widdth,initial-scale=1.0">
+		<title>
+			Health checkup and diet Planning
+		</title>
+		<link rel="stylesheet" href="../Css/feedback.css" >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+		 
+		</head>
+	<body>
+	
+<!--starter-->
+<section>
+		<div class="header">
+			
+			<nav>
+				<a href="home.html"><img src="../Img/Logo.png" width="150px" height="100px" alt="logo">
+				<h4>Health Hanger</h4></a>
+				<div class="links">
+					<ul>
+						<li><a href="Home.html">HOME</a></li>
+						<li><a href="user.php">LOGIN</a></li>
+						<li><a href="register.php">SIGNUP</a></li>
+						<li><a href="Contact.html">CONTACT</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>	
+		<br><br><br><br>
+<!--header finish---->
+			
+		<div class="contain">
+			<form method="post" action="feedback.php">
+		
+				<h1>Give Us a Feedback</h1>
+				<div class="form">
+				<input type="text" placeholder="Email" name="Email"><br>
+				</div>
+				<div class="form">
+				<input type="text" placeholder="UserID(Optional)" name="UserID"><br>
+				</div>
+				<div class="form">
+				<textarea cols="15" rows="5" placeholder="Feedback" name="F_Description"></textarea><br>
+				</div>
+				<button class="reg"type="submit" value="submit" onclick='loaddata()' name="btnsubmit"> Submit</button>
+				
+			</form>
+		</div>
+	<div class="vl">
+	</div>
+	
+	
+
+	<br><br><br><br>
+	<hr class="hr">
+	
+	<br>
+	
+<!--footer begin-->
+
+<footer class="footer">
+<h2><center>FOLLOW US</center></h2>
+<div class="socialmedia">
+<a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x">facebook</i></a>
+<a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x">Instagram</i></a>
+<a href="https://twitter.com/login"><i class="fab fa-twitter-square fa-2x">Twitter</i></a>
+<a href="https://www.google.com/intl/si/gmail/about/#"><i class="fab fa-google-plus-square fa-2x">Google Plus</i></i></a>
+<a href="https://www.whatsapp.com"><i class="fab fa-whatsapp-square fa-2x">Whatsapp</i></a>
+
+</div>
+<div class="paymentmethods" >
+    <img src="../Img/visa.png" alt="Visa" hspace="5" vspace="5" border="0" />
+    <img src="../Img/mastercard.png" alt="Mastercard" hspace="5" vspace="5" border="0" />
+    <img src="../Img/americanexpress.png" alt="American Express" hspace="5" vspace="5" border="0" />
+    
+    
+</div>
+</footer>
+<!--footer End-->
+
+	
+	</body>
+</html>

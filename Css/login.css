@@ -1,0 +1,129 @@
+
+body
+{
+	background-image:url("../Img/bg5.jpg");
+	
+}
+.header
+{
+	background-color:gray;
+	height:170px;
+
+ }
+
+ nav
+ {
+	 display:flex;
+	 padding:2% 6%;
+	 justify-content:space-between;
+	 align-item:center;
+ 
+ }
+ nav h4 
+ {
+	color:black;
+ }
+  
+ nav h4:hover
+ {
+	color:black;
+ }
+ nav img
+ {
+	display:block;
+	margin:left;
+	margin-right:center;
+	width:auto;
+ }
+ 
+ .links 
+ {
+	  flex:1;
+	 text-align:right;
+}
+ .links ul li
+ {
+	
+	 list-style:none;
+	 display:inline-block;
+	 padding:8px 12px;
+	 position:relative;
+ }
+ .links ul li a
+ {
+	 color:black;
+	 text-decoration:none;
+	 font-size:20px;
+ }
+ .links ul li::after
+ {
+	 content:'';
+	 width:0%;
+	 height:2px;
+	background-color:#47555e;
+	display:block;
+	margin:auto;
+	transition:1s;
+ }
+ .links ul li:hover::after
+ {
+	 width:100%;
+ }
+
+	
+#login{
+	background-color:#008fb3;
+	width:450px;
+	height:400px;
+	border-radius:12px;
+}
+
+.submit-btn {
+    width: 15%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+
+}
+
+.submit-btn:active,
+.submit-btn:hover {
+  background-color: gray;  
+}
+
+
+/*Footer*/
+.hr
+{
+	border:2px solid black;
+	
+}
+.footer
+{
+	background-color:gray;
+	width:100%;
+	text-align:center;
+	padding:30px 0;
+}
+.footer h4
+{
+	color:blue;
+	margin-bottom:25px;
+	margin-top:20px;
+	font-weight:600;
+}
+
+.icon .fa
+{
+	color:black;
+	margin:0 13px;
+	cursor:pointer;
+	padding:18px 0;
+}
+
+

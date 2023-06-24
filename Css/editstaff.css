@@ -1,0 +1,202 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.header
+{
+	background-image:url("../Img/editprofile.jpg");
+	background-size:cover;
+	width:100%;
+	min-height:100vh;
+	background-position:center;
+	position:relative;
+	backgroud-repeat:no-repeat;
+
+ }
+
+ nav
+ {
+	 display:flex;
+	 padding:2% 6%;
+	 justify-content:space-between;
+	 align-item:center;
+ 
+ }
+ nav h4 
+ {
+	color:black;
+ }
+  
+ nav h4:hover
+ {
+	color:black;
+ }
+ nav img
+ {
+	display:block;
+	margin:left;
+	margin-right:center;
+	width:auto;
+ }
+ 
+ .links 
+ {
+	  flex:1;
+	 text-align:right;
+}
+ .links ul li
+ {
+	
+	 list-style:none;
+	 display:inline-block;
+	 padding:8px 12px;
+	 position:relative;
+ }
+ .links ul li a
+ {
+	 color:black;
+	 text-decoration:none;
+	 font-size:20px;
+ }
+ .links ul li::after
+ {
+	 content:'';
+	 width:0%;
+	 height:2px;
+	background-color:#47555e;
+	display:block;
+	margin:auto;
+	transition:1s;
+ }
+ .links ul li:hover::after
+ {
+	 width:100%;
+ }
+
+.edit_profile{
+    
+    width: 100%;
+    margin: auto;
+    background-color: rgb(0,0,0,0.7);
+    text-align: center;
+    color: #FFFF;
+    border-radius: 15px 15px 0 0;
+}    
+
+.main{
+    width:100%;
+    background-color: rgb(0,0,0,0.7);
+    margin: auto;
+}
+
+form{
+    padding:10px;
+}
+
+#e_name{
+    
+    margin:5px;
+    padding: 10px;
+    color:white;
+}
+.e_name{
+     
+    color: white;
+    font-size:20px;
+    margin-top: 10px;
+}
+.first_name{
+    position: relative;
+    left:10px;
+    top: -20px;
+}
+#fname{
+    position: relative;
+    left: 20px;
+    top: -20px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.last_name{
+    position: relative;
+    left: 25px;
+    top: -20px;
+    
+}
+#lname{
+    position: relative;
+    left: 40px;
+    top: -20px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#phone_no{
+     position: relative;
+    left: 100px;
+    margin: 20px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+
+
+#n_phone{
+     position: relative;
+    left: 20px;
+    top: 5px;
+    margin: 5px;
+    padding: 4px;
+    font-size: 14px;
+}
+
+
+#editProfile {
+    display: none;
+}
+
+ /*Feedbacks*/
+ 
+.feedback
+{
+	width:80%;
+	margin:auto;
+	text-align:center;
+	padding-top:100px;
+}  
+
+/*Footer*/
+.hr
+{
+	border-top:2px solid black;
+	
+}
+.footer
+{
+	
+	width:100%;
+	text-align:center;
+	padding:30px 0;
+}
+.footer h4
+{
+	color:black;
+	margin-bottom:25px;
+	margin-top:20px;
+	font-weight:600;
+}
+
+.icon .fa
+{
+	color:black;
+	margin:0 13px;
+	cursor:pointer;
+	padding:18px 0;
+}
+
+

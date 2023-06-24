@@ -1,0 +1,132 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.header
+{
+	background:url("../img/Login.jpg");
+	background-size:cover;
+	width:100%;
+	min-height:100vh;
+	background-position:center;
+	position:relative;
+	backgroud-repeat:no-repeat;
+
+ }
+
+ nav
+ {
+	 display:flex;
+	 padding:2% 6%;
+	 justify-content:space-between;
+	 align-item:center;
+ 
+ }
+ nav h4 
+ {
+	color:black;
+ }
+  
+ nav h4:hover
+ {
+	color:black;
+ }
+ nav img
+ {
+	display:block;
+	margin:left;
+	margin-right:center;
+	width:auto;
+ }
+ 
+ .links 
+ {
+	  flex:1;
+	 text-align:right;
+}
+ .links ul li
+ {
+	
+	 list-style:none;
+	 display:inline-block;
+	 padding:8px 12px;
+	 position:relative;
+ }
+ .links ul li a
+ {
+	 color:black;
+	 text-decoration:none;
+	 font-size:20px;
+ }
+ .links ul li::after
+ {
+	 content:'';
+	 width:0%;
+	 height:2px;
+	background-color:#47555e;
+	display:block;
+	margin:auto;
+	transition:1s;
+ }
+ .links ul li:hover::after
+ {
+	 width:100%;
+ }
+
+.wrapper {
+	max-width:400px;
+	margin: auto;
+	width: 400px;
+	box-shadow: 0 0 5px rgba(0,0,0,.10);
+	background-color:gray;
+	border-radius:15px;
+	height:600px;
+	padding:2rem;
+}
+.profile-page {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height:100vh;
+}
+.wrapper h2 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.wrapper .inputBox {
+	width: 95%;
+	height: 25px;
+	margin-bottom: 3rem;
+	position:relative;
+}
+.wrapper .inputBox input {
+	width:100%;
+	height:100%;
+	border:1px solid #eee;
+	outline: none;
+	border-radius:4px;
+	padding:5px;
+}
+.wrapper .inputBox:last-child {
+	margin-bottom:0;
+}
+.wrapper .inputBox button {
+	width:380px;
+	padding:10px;
+	font-size:17px;
+	border-radius:5px;
+	background: #666699;
+	color:#fff;
+	margin-top:5px;
+	cursor:pointer;
+	
+}
+.wrapper .inputBox button:hover{
+	background:#0099e6;
+}
+.wrapper .inputBox {
+	margin-bottom: 20px;
+}
